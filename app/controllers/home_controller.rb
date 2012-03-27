@@ -7,8 +7,8 @@ class HomeController < ApplicationController
 	def pay
 		gateway =  ActiveMerchant::Billing::PaypalAdaptivePayment.new(
             :login => "admin2_1332835502_biz_api1.gmail.com",
-            :password => "1332835526",
-            :signature => "APhBZT3go8aB2Satc1sE-PhTzKdfA87dlYIXam8Hxxaj6Jh7AfAhLeLA",
+            :password => "xxxxxxx",
+            :signature => "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
             :appid => "APP-80W284485P519543T" )
 
 		recipients = [{:email => 'admin_1332814369_biz@gmail.com',
