@@ -59,6 +59,7 @@ Testpaypal::Application.routes.draw do
 	match "home/complete" => "home#complete"
 	match "home/success" => "home#success"
 	match "home/cancel" => "home#cancel"
+	match "home/pay" => "home#pay"
 
 	root :to => 'home#index'
 end
